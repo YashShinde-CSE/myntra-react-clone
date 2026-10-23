@@ -1,16 +1,73 @@
-# React + Vite
+# Myntra-Inspired Full-Stack Shopping Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Myntra-inspired shopping application built using React.js and Redux Toolkit, with a Node.js and Express.js backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse and display product listings.
+- Fetch product data from the backend API.
+- Add products to the shopping bag and remove them.
+- Manage shopping bag state using Redux Toolkit.
+- Navigate between the home page and shopping bag.
+- Display product images and pricing information.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend**
+- React.js
+- JavaScript
+- Redux Toolkit
+- React Router
+- Vite
+- HTML and CSS
 
-## Expanding the ESLint configuration
+**Backend**
+- Node.js
+- Express.js
+- REST API
+- JSON-based product data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+myntra-react-clone/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+├── backend/
+│   ├── data/
+│   ├── app.js
+│   ├── items.json
+│   └── package.json
+└── README.md
+```
+
+## Run Locally
+
+### 1. Start the backend
+
+```bash
+cd backend
+npm install
+node app.js
+```
+
+### 2. Start the frontend
+
+Open a separate terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open the local URL displayed by Vite in your browser.
+
+## Author
+
+Yash Shinde
+
+GitHub: [YashShinde-CSE](https://github.com/YashShinde-CSE)
