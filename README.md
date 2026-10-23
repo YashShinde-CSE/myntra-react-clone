@@ -51,7 +51,7 @@ myntra-react-clone/
 ```bash
 cd backend
 npm install
-node app.js
+npm start
 ```
 
 ### 2. Start the frontend
